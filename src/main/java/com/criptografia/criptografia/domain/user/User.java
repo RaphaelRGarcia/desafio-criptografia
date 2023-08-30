@@ -1,6 +1,6 @@
 package com.criptografia.criptografia.domain.user;
 
-import com.criptografia.DTOs.UserDTO;
+import com.criptografia.criptografia.DTOs.UserDTO;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

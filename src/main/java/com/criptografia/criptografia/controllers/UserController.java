@@ -1,6 +1,6 @@
-package com.criptografia.controllers;
+package com.criptografia.criptografia.controllers;
 
-import com.criptografia.DTOs.UserDTO;
+import com.criptografia.criptografia.DTOs.UserDTO;
 import com.criptografia.criptografia.domain.user.User;
 import com.criptografia.criptografia.services.UserService;
 
