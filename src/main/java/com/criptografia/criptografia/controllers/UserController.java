@@ -4,13 +4,9 @@ import com.criptografia.DTOs.UserDTO;
 import com.criptografia.criptografia.domain.user.User;
 import com.criptografia.criptografia.services.UserService;
 
-import java.nio.charset.StandardCharsets;
-import java.security.MessageDigest;
+
 import java.util.List;
 
-import javax.print.DocFlavor.READER;
-
-import org.hibernate.engine.spi.Resolution;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
