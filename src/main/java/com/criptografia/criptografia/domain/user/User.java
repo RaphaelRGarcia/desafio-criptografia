@@ -1,5 +1,7 @@
 package com.criptografia.criptografia.domain.user;
 
+import com.criptografia.DTOs.UserDTO;
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -25,4 +27,10 @@ public class User {
 
     private long value;
 
+
+    public User(UserDTO data){
+        this.creditCardToken = data.creditCardToken();
+        this.userDocument = data.userDocument();
+        this.value = data.value();
+    }
 }
