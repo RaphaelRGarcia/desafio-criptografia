@@ -3,6 +3,9 @@ package com.criptografia.criptografia.services;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class CriptoService {
     
     public static String encode(String info) throws Exception{
